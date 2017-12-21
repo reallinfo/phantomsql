@@ -84,7 +84,7 @@ sql.delete("table_name", "column", "value");
 
 ## Demo
 
-Check out this [demo](https://harmankang.github.io/web-demos/registration-demo/index.html) that uses PhantomSQL in order to allows you to register, login, change password, and delete your account.
+Check out this [demo](https://harmankang.github.io/web-demos/registration-demo/index.html) that uses PhantomSQL in order to allow you to register, login, change your password, and delete your account.
 
 ## Architecture
 
@@ -92,7 +92,7 @@ PhantomSQL is built-on the Web Storage API, specifically the [`window.localStora
 
 - It will store data across browser sessions without expiration, even if the browser is closed.
 - Data stored using PhantomSQL is specific to the protocol of the page (e.g. `file://` vs `https://`).
-- Depending on your browser configuration, PhantomSQL may not work properly for a certain origin (i.e. Web Storage may be denied in for certain protocol, port, or host).
+- Depending on your browser configuration, PhantomSQL may not work properly for a certain origin (i.e. Web Storage may be denied for a certain protocol, port, or host).
 
 #### PhantomSQL is by no means an actual database. 
 
@@ -116,6 +116,7 @@ This will create the so-called genesis item and additional items for the columns
 | users_username | [] |
 | users_password | [] |
 
+> Let's insert a row:
 
 ```javascript
 sql.insert("users", "id", "1");
