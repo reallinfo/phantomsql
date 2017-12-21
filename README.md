@@ -32,6 +32,10 @@ Clone
 ```sh
 git clone https://github.com/harmankang/phantomsql.git
 ```
+or use npm
+```sh
+npm install phantomsql
+```
 and add it to your `.html` file
 
 ```html
