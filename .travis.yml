@@ -1,0 +1,6 @@
+language: node_js
+node_js:
+  - 6
+env:
+- THIS_VAR=phantomsql
+- NODE_ENV=TEST
