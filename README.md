@@ -43,8 +43,6 @@ and add it to your `.html` file
 
 ## Operations
 
-> Warning: PhantomSQL is not an actual database. It's a prototyping tool.
-
 ### Create table
 Override resistant (i.e. existing table with same name will not be replaced).
 ```javascript
