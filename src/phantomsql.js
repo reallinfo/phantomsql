@@ -7,7 +7,7 @@
 //  (https://github.com/harmankang/phantomsql)
 // ===========================================
 
-var sql = new function () {
+var sql = new (function () {
   /*
    * Creates new table
    */
@@ -100,9 +100,9 @@ var sql = new function () {
       }
     }
   };
-}();
-var delegate = new function () {
+})();
+var delegate = new (function () {
   this.getItem = function (e) {
     return JSON.parse(localStorage.getItem(e));
   };
-};
+})();
