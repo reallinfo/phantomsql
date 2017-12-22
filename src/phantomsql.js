@@ -22,7 +22,7 @@ var sql = new function () {
     for (var i = 0; i < columnNames.length; i++) {
       localStorage.setItem(tableName + "_" + columnNames[i], JSON.stringify([]));
     }
-  }
+  };
   /*
    * Deletes table
    */
@@ -32,7 +32,7 @@ var sql = new function () {
       localStorage.removeItem(table + "_" + columns[i]);
     }
     localStorage.removeItem(table);
-  }
+  };
   /*
    * Returns value given condition
    */
@@ -43,7 +43,7 @@ var sql = new function () {
         return delegate.getItem(table + "_" + column)[i];
       }
     }
-  }
+  };
   /*
    * Determines if value exists in a given column and returns boolean
    */
@@ -59,7 +59,7 @@ var sql = new function () {
         return false;
       }
     }
-  }
+  };
   /*
    * Insert new row to end of table
    */
@@ -67,7 +67,7 @@ var sql = new function () {
     var t = delegate.getItem(table + "_" + column);
     t.push(value);
     localStorage.setItem(table + "_" + column, JSON.stringify(t));
-  }
+  };
   /*
    * Insert new value into column using condition
    */
@@ -80,7 +80,7 @@ var sql = new function () {
         localStorage.setItem(table + "_" + column, JSON.stringify(t));
       }
     }
-  }
+  };
   /*
    * Delete row
    */
@@ -99,10 +99,10 @@ var sql = new function () {
         }
       }
     }
-  }
-}
+  };
+}();
 var delegate = new function () {
   this.getItem = function (e) {
     return JSON.parse(localStorage.getItem(e));
-  }
-}
+  };
+};
