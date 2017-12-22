@@ -1,5 +1,5 @@
 <h1 align="center">PhantomSQL 👻</h1>
-  <p align="center">A substitute for SQL when prototyping on the web.</p>
+  <p align="center">A frontend substitute for SQL.</p>
 <p align="center">PhantomSQL provides a mechanism for storing and retrieving data in-browser.</p>
   <p align="center">
   <a href="https://travis-ci.org/harmankang/phantomsql"><img src="https://travis-ci.org/harmankang/phantomsql.svg?branch=master"></a>
