@@ -1,5 +1,5 @@
 <h1 align="center">PhantomSQL 👻</h1>
-  <p align="center">A prototyping tool for building UIs.</p>
+  <p align="center">A prototyping tool for building user interfaces.</p>
 <p align="center">PhantomSQL provides a mechanism for storing and retrieving data in-browser.</p>
   <p align="center">
   <a href="https://travis-ci.org/harmankang/phantomsql"><img src="https://travis-ci.org/harmankang/phantomsql.svg?branch=master"></a>
@@ -143,7 +143,7 @@ This will replace the appropriate items:
 ## Limitations
 
 ### Use cases
-I wrote PhantomSQL as a prototyping tool for building user-interfaces when APIs are unavailable. For example, if you're designing a login form and the Login API isn't available, you can substitute the API with PhantomSQL to in order to complete the design.
+I wrote PhantomSQL as a prototyping tool for building user-interfaces when APIs are unavailable. For example, if you're designing a login form and the Login API isn't available, you can substitute the API with PhantomSQL in order to complete the design.
 
 ### Storage size
 I have found various Local Storage storage size numbers across the web. (Chrome [supposedly](https://chromiumcodereview.appspot.com/21680002) allows 10MB per origin.) Overall, I have found that there is not a lot of space for data storage.
