@@ -13,16 +13,8 @@
 
 The PhantomSQL API is straightforward:
 
-```javascript
-// New table with two columns
-sql.init("user_table", ["username", "password"]);
+<p align="center"><img src="https://github.com/harmankang/phantomsql/blob/master/z-rdme-img/demo.png" width=""></p>
 
-// Insert new user to table
-if (!sql.find("username", "user_table", username)) {
-  sql.insert("user_table", "username", username);
-  sql.insert("user_tble", "password", password);
-}
-```
 ### Table of Contents
 - [Install](#install)
 - [PhantomSQL operations](#operations)
