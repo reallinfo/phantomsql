@@ -45,6 +45,17 @@ var api = function () {
     }
   };
   /*
+   * Returns all "rows" from column
+   */
+  this.selectAll = function ( /**@SELECT**/ column, /**@FROM**/ table) {
+    var column_select = delegate.getItem(table + "_" + column);
+    var arr = [];
+    for (var i = 0; i < column_select.length; i++) {
+      arr.push(column_select[i]);
+    }
+    return arr;
+  };
+  /*
    * Determines if value exists in a given column and returns boolean
    */
   this.find = function ( /**@SELECT**/ column, /**@FROM**/ table, /**@WHERE column IS_EQUAL_TO**/ value) {
