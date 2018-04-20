@@ -57,6 +57,12 @@ Returns value given condition
 // Read: SELECT column_1 FROM table_name WHERE column_2 = value
 sql.select("column_1", "table_name", "column_2", "value");
 ```
+### Select all
+Returns all values from a column (all values in column)
+```javascript
+// Read: SELECT column_1 FROM table_name
+sql.selectAll("column_1", "table_name");
+```
 ### Find if value exists in column
 Returns boolean
 ```javascript
