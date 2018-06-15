@@ -1,20 +1,26 @@
-<h1 align="center">PhantomSQL 👻</h1>
-  <p align="center">A prototyping tool for building user interfaces.</p>
-<p align="center">PhantomSQL provides a mechanism for storing and retrieving data in-browser.</p>
+<p align="center">
+  <h3 align="center">PhantomSQL 👻</h3>
+  <p align="center">A prototyping tool for building user interfaces.</p><p align="center">PhantomSQL provides a mechanism for storing and retrieving data in-browser.</p>
   <p align="center">
   <a href="https://travis-ci.org/harmankang/phantomsql"><img src="https://travis-ci.org/harmankang/phantomsql.svg?branch=master"></a>
   <a href="https://github.com/harmankang/phantomsql/issues"><img src="https://img.shields.io/github/issues/harmankang/phantomsql.svg"></a>
   <a href="https://harmankang.github.io/web-demos/registration-demo/index.html"><img src="https://img.shields.io/badge/try-demo-blue.svg"></a>
   <a href="https://github.com/harmankang/phantomsql/blob/master/LICENSE"><img src="https://img.shields.io/github/license/harmankang/phantomsql.svg"></a>
-
+</p>
 </p>
 
-> Check out this [demo](https://harmankang.github.io/web-demos/registration-demo/index.html).
+> The PhantomSQL API is straightforward:
 
-The PhantomSQL API is straightforward:
+```javascript
+// New table with two columns
+sql.init("users_table", ["username", "password"]);
 
-<p align="center"><img src="https://github.com/harmankang/phantomsql/blob/master/z-rdme-img/demo.png" width=""></p>
-
+// Insert new username "wes" into table
+if (!sql.find("users_table", "username", "wes00")) {
+  sql.insert("users_table", "username", "wes00");
+  sql.insert("users_table", "password", "nba123");
+}
+```
 ### Table of Contents
 - [Install](#install)
 - [PhantomSQL operations](#operations)
