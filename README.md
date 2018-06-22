@@ -18,9 +18,9 @@
 sql.init("users_table", ["username", "password"]);
 
 // Insert new username "wes" into table
-if (!sql.find("users_table", "username", "wes00")) {
-  sql.insert("users_table", "username", "wes00");
-  sql.insert("users_table", "password", "nba123");
+if (!sql.find("users_table", "username", "wes")) {
+  sql.insert("users_table", "username", "wes");
+  sql.insert("users_table", "password", "pass123");
 }
 ```
 ### Table of Contents
