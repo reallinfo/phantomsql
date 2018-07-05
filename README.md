@@ -1,6 +1,6 @@
 <p align="center">
   <h3 align="center">PhantomSQL 👻</h3>
-  <p align="center">A prototyping tool for building user interfaces.</p><p align="center">PhantomSQL provides a mechanism for storing and retrieving data in-browser.</p>
+   <p align="center">PhantomSQL provides a mechanism for storing and retrieving data in-browser.</p>
   <p align="center">
   <a href="https://travis-ci.org/harmankang/phantomsql"><img src="https://travis-ci.org/harmankang/phantomsql.svg?branch=master"></a>
   <a href="https://github.com/harmankang/phantomsql/issues"><img src="https://img.shields.io/github/issues/harmankang/phantomsql.svg"></a>
