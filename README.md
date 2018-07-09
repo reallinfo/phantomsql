@@ -1,3 +1,5 @@
+<p align="center"><img src="logo/logomark.png" alt="phantomsql" height="180px"></p>
+
 <p align="center">
   <h3 align="center">PhantomSQL 👻</h3>
    <p align="center">PhantomSQL provides a mechanism for storing and retrieving data in-browser.</p>
